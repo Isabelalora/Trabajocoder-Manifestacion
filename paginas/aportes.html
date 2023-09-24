@@ -5,20 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 <body>
     <header>
-        <a href="../index.html"> <img src="../multimedia/logo 2.png" alt="Logo "medita al universo"></a>
-
-        <nav>
-            <ul>
-                <li> <a href="../index.html">HOME</a></li>
-                <li> <a href="./consejos.html">CONSEJOS</a></li>
-                <li> <a href="./metodos.html">MÉTODOS</a></li>
-                <li> <a href="./afirmaciones.html">AFIRMACIONES</a></li>
-                <li> <a href="#">APORTES</a></li>
-
-            </ul>
+        <img src="../multimedia/logo 2.png" alt="Logo "medita al universo">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">HOME</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./consejos.html">CONSEJOS</a>
+                  <a class="nav-link active" aria-current="page" href="./metodos.html">MÉTODOS</a>
+                  <a class="nav-link active" aria-current="page" href="./afirmaciones.html">AFIRMACIONES</a>
+                  <a class="nav-link active" aria-current="page" href="#">APORTES</a>
+                </div>
+              </div>
+            </div>
+          </nav>
         </nav>
 
     </header>
@@ -38,22 +46,47 @@
                 <input type="email" name="" id=""  placeholder="manifiesta@gmail.com">
     
                 <p>Dejanos saber tú experiencia.</p>
-                <textarea name="" id="" cols="50" rows="10"></textarea>
+                <textarea class="opinion" name="" id="" cols="40" rows="10"></textarea>
     
                 <input type="button" value="Enviar"
             </form>
     
-        </section>
-    </section>
+         </section>
+       </section>
 
         <img src="../multimedia/aportes.jpg" alt="imagen mistica">
         
     </main>
 
-    <footer>
-        <a href="https://www.facebook.com/"> <img src="../multimedia/insta (2).jpg" alt="Logo de FACEBOOK"></a>
-        <a href="https://www.instagram.com/accounts/login/"><img src="../multimedia/insta (1).jpg" alt="Logo de INSTAGRAM"></a>
-    
-    </footer>
+     <!--Pie de pagina-->
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../multimedia/logo 2.png" alt="Logo">
+                    </a>    
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <P>Somos una comunidad que cree en el poder del universo</P>
+                <p>Queremos compartir un poco sobre el poder que tienen tus palabras y tus pensamientos en tu vida diaria</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/"><img src="../multimedia/insta (2).jpg" alt="logo FACEBOOK"></a>
+                    <a href="https://www.instagram.com/accounts/login/"> <img src="../multimedia/insta (1).jpg" alt="Logo de INSTAGRAM"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>© 2023 <b>Isabela Lora</b> - Todos los Derechos Reservados.</small>
+        </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
