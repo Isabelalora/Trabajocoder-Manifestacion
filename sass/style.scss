@@ -396,3 +396,112 @@ main{
         grid-gap: 30px;
         padding: 35px 0px;
     }
+
+    /*tablet*/
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para tablets */
+
+  header{
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+}
+header a{
+    font-size: 0.8rem;
+}
+
+.parteUno{
+    padding: 10px 0px ;
+    color:white;
+    font-size: 1.5rem;
+    text-align: center; 
+}
+.consejosUno{
+    font-size: 1.2rem;
+    margin: 5px 10px;
+}
+.consejosDos{
+    font-size: 1rem;
+    margin: 5px 10px;
+    .consejosdiv1{
+        display: contents;
+    }
+}
+
+.contenedor-grid{
+    grid-template-areas: 
+    "titulo1"
+    "texto1"
+    "img1"
+    "texto2"
+    "texto3"
+    "titulo2" 
+    "texto4";
+    grid-template-rows: 90px 8% 10% 2% 18% ;
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+
+.contenedor-grid {
+    grid-template-columns: 1fr;
+  }
+  .grid-video-1 {
+    display: none;
+   }
+   .grid-texto-2{
+    display: none;
+   }
+   .grid-texto-3{
+    display: none;
+   }
+   .grid-img-1{
+    display: none;
+   }
+
+}
+
+.afirmaciones {
+  
+  .afirmacionesUno img {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center
+  }
+  
+  .afirmacionesDos img {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center
+  }
+}
+
+.aportescero{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    padding: 10px 0px;
+}
+.aportesuno{
+    width: 15px 15px;
+    height: 20px 20px;
+    margin: 10px 10px;
+    justify-content: center;
+}
+.aportesdos{
+    margin: 10px 10px;
+}
+.aportescero img{
+    display: none;      
+}
+
+.pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+}
+
